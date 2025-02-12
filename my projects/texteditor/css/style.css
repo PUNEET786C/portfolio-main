@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    padding:15px;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+ 
+#Code_Box{
+    margin: 20px auto;
+    width: 90%;
+    height:600px;
+}
+legend{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#CODE{
+    width: 100%;
+    height: 90%;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    outline: none;
+}
+#run_btn{
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+}
+#result{
+    width: 100%;
+    height: 93%;
+    overflow: scroll;
+    padding: 15px;
+}
+#result_box{
+    display: none;
+    margin: 20px auto;
+    width: 90%;
+    height: 600px;
+}
+#icon{
+    display: none;
+    padding: 10px;
+    font-weight: bold;
+}

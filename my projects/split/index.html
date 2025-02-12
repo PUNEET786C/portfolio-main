@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <h1 class="logo">ADVENTURE</h1>
+    <ul class="nav-links">
+      <li class="active"><a href="#"></a>HOME</li>
+      <li><a href="#"></a>Tours</li>
+      <li><a href="#"></a>Explore</li>
+      <li><a href="#"></a>About</li>
+      <li class="ctn"><a href="#"></a>Contact</li>
+
+
+
+    </ul>
+    <img src="meu.png" alt="ham" class="menu-btn">
+  </div>
+<header>
+  <div class="header-content">
+    <h2>Explore The Colorful World</h2>
+    <div class="line"></div>
+    <h1> A WONDERFUL GIFT</h1>
+    <a href="#" class="ctn">Learn More</a>
+  </div>
+</header>
+<section class="events">
+  <div class="title">
+    <h1>Upcomeing Events</h1>
+    <div class="line"></div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img src="brick.jpg" alt="">
+      <h4>Black Wall</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates optio repellat perspiciatis commodi suscipit consequuntur ipsa in eaque quo nihil.</p>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+  
+  
+  <div class="col">
+    <img src="background.jpg" alt="">
+    <h4>Colorfull Wall</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Maxime accusamus ipsum molestiae facilis, eius excepturi ut nobis voluptatibus!</p>
+    <a href="#" class="ctn">Learn More</a>
+  </div>
+</div>
+</section>
+<section class="explore">
+ <div class="explore-content">
+  <h1>EXPLORE THE WORLD</h1>
+  <div class="line"></div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, modi! Illum, beatae? Similique natus illum tempore doloremque distinctio cupiditate. Nobis quia nulla esse ullam nihil.</p>
+  <a href="#" class="ctn">Learn More</a>
+ </div>
+</section>
+<section class="tours">
+  <div class="row">
+    <div class="col">
+      <h1>UPCOMING TOURS & DESTINATIONS</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam fuga veritatis, delectus quisquam impedit iste maxime officiis, voluptate quam minima fugiat atque! Ratione, unde quis.</p>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+  </div>
+</section>
+<script>
+  const menuBtn = document.querySelector('.menu-btn')
+  const navlinks = document.querySelector('.nav-links')
+
+  menuBtn.addEventListener('click',()=>{
+    navlinks.classList.toggle('mobile-menu')
+  })
+</script>
+  
+</body>
+</html>
