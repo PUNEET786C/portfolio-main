@@ -538,7 +538,8 @@ footer {
 
     #contact {
         padding: 60px 20px;
-        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        background-image: url('about.png');
+        background-size: cover;
         color: #fff;
         text-align: center;
       }
