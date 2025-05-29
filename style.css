@@ -268,7 +268,8 @@ nav ul li a {
 
 #contact {
     padding: 60px 20px;
-    background: linear-gradient(-160deg, #000000, #4442af);
+    background-image: url('about.png');
+    background-size: cover;
     color: #fff;
     text-align: center;
   }
